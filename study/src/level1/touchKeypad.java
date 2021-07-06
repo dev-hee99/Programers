@@ -22,6 +22,7 @@ public class touchKeypad {
         System.out.println(solution(numbers2,hand2));
         System.out.println(solution(numbers3,hand3));
     }
+
     private static String solution(int[] numbers, String hand) {
         String answer = "";
         String [][] keypad = {
@@ -53,6 +54,7 @@ public class touchKeypad {
                             ry=k;
                             //2,5,8,0 누를경우
                         }else{
+                            //왼손과 오른손의 위치가 키패드와의 거리가 같을경우
                             if(lgap==rgap){
                                 answer+=hand;
                                 if(hand.equals("R")){
@@ -62,10 +64,12 @@ public class touchKeypad {
                                     lx=j;
                                     ly=k;
                                 }
+                             //오른손보다 왼손이 거리가 더 멀 경우
                             }else if(lgap>rgap){
                                 answer+="R";
                                 rx=j;
                                 ry=k;
+                             //그 외
                             }else{
                                 answer+="L";
                                 lx=j;
