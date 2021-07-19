@@ -16,18 +16,20 @@ public class carsarCipher {
     public static void main(String[] args) {
         for(int i=0; i<s.length;i++)
             System.out.println(solution(s[i],n[i]));
-
     }
     private static String solution(String s, int n) {
-        String answer = "";
+        StringBuilder sb = new StringBuilder();
         int narr [] = new int[s.length()];
         for(int i=0; i<s.length();i++){
             narr[i] = s.charAt(i)+n;
-            if(s.charAt(i)==' ') answer += ' ';
-            else if(narr[i]>'Z' && narr[i]<'a') answer += (char)('A'+narr[i]-'Z'-1);
-            else if(narr[i]>'z') answer += (char)('a'+narr[i]-'z'-1);
-            else answer +=(char)narr[i];
+            if(s.charAt(i)==' ') sb.append(' ');
+            else if(narr[i]>'Z' && (s.charAt(i)>='A' && s.charAt(i)<='Z'))
+                sb.append((char)('A'+narr[i]-'Z'-1));
+            else if(narr[i]>'z')
+                sb.append((char)('a'+narr[i]-'z'-1));
+            else
+                sb.append((char)narr[i]);
         }
-        return answer;
+        return sb.toString();
     }
 }
