@@ -2,7 +2,7 @@
 
 ## 코딩테스트 연습 (JAVA) 
 * <a href="https://github.com/dev-hee99/Programers/tree/master/study/src/level1">LEVEL1️⃣</a>
-* LEVEL2️⃣
+* <a href="https://github.com/dev-hee99/Programers/tree/master/study/src/level2">LEVEL2️⃣</a>
 * LEVEL3️⃣
 * LEVEL4️⃣
 * LEVEL5️⃣
