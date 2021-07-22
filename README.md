@@ -2,7 +2,7 @@
 
 ## 코딩테스트 연습 (JAVA) 
 * <a href="https://github.com/dev-hee99/Programers/tree/master/study/src/level1">LEVEL1️⃣</a> ☀ **CLEAR**
-* <a href="https://github.com/dev-hee99/Programers/tree/master/study/src/level2">LEVEL2️⃣</a> ☁ <mark style="font-color:blue">in progress</mark>
+* <a href="https://github.com/dev-hee99/Programers/tree/master/study/src/level2">LEVEL2️⃣</a> ☁ <mark>in progress</mark>
 * LEVEL3️⃣ ☁
 * LEVEL4️⃣ ☁
 * LEVEL5️⃣ ☁
