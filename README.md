@@ -9,7 +9,7 @@
 * LEVEL5️⃣ ☁
 
 ### SQL
-* [LEVEL1️⃣](https://github.com/dev-hee99/Programers/tree/master/study/SQL/level1)
-* [LEVEL2️⃣](https://github.com/dev-hee99/Programers/tree/master/study/SQL/level2)
-* [LEVEL3️⃣](https://github.com/dev-hee99/Programers/tree/master/study/SQL/level3)
-* [LEVEL4️⃣](https://github.com/dev-hee99/Programers/tree/master/study/SQL/level4)
+* [LEVEL1️⃣](https://github.com/dev-hee99/Programers/tree/master/study/src/SQL/level1)
+* [LEVEL2️⃣](https://github.com/dev-hee99/Programers/tree/master/study/src/SQL/level2)
+* [LEVEL3️⃣](https://github.com/dev-hee99/Programers/tree/master/study/src/SQL/level3)
+* [LEVEL4️⃣](https://github.com/dev-hee99/Programers/tree/master/study/src/SQL/level4)
