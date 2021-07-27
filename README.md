@@ -4,9 +4,9 @@
 ### JAVA 
 * <a href="https://github.com/dev-hee99/Programers/tree/master/study/src/level1">LEVEL1️⃣</a> ☀ **CLEAR**
 * <a href="https://github.com/dev-hee99/Programers/tree/master/study/src/level2">LEVEL2️⃣</a> ☁ in progress
-* LEVEL3️⃣ ☁
-* LEVEL4️⃣ ☁
-* LEVEL5️⃣ ☁
+* LEVEL3️⃣ ☁ NOT YET
+* LEVEL4️⃣ ☁ NOT YET
+* LEVEL5️⃣ ☁ NOT YET
 
 ### SQL
 * [LEVEL1️⃣](https://github.com/dev-hee99/Programers/tree/master/study/src/SQL/level1) ☀ **CLEAR**
