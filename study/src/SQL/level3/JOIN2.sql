@@ -1,0 +1,7 @@
+-- 오랜 기간 보호한 동물(1)
+SELECT ins.NAME ,ins.DATETIME
+FROM ANIMAL_INS ins LEFT JOIN ANIMAL_OUTS outs
+ON ins.ANIMAL_ID = outs.ANIMAL_ID
+where outs.ANIMAL_ID IS NULL
+ORDER BY ins.DATETIME
+limit 3
