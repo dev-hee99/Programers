@@ -1,0 +1,6 @@
+-- 오랜 기간 보호한 동물(2)
+SELECT ins.ANIMAL_ID ,ins.NAME
+FROM ANIMAL_INS ins INNER JOIN ANIMAL_OUTS outs
+ON ins.ANIMAL_ID = outs.ANIMAL_ID
+ORDER BY DATEDIFF(outs.DATETIME,ins.DATETIME) desc
+limit 2
