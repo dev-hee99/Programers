@@ -71,10 +71,6 @@ record
 result
 ["Prodo님이 들어왔습니다.", "Ryan님이 들어왔습니다.", "Prodo님이 나갔습니다.", "Prodo님이 들어왔습니다."]
  */
-class User{
-    String userId;
-
-}
 public class OpenChattingRoom {
     private static final String[] record =
             {"Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
