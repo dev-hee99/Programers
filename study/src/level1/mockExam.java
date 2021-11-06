@@ -35,9 +35,6 @@ class Student{
 }
 public class mockExam {
     public static int [] answer={1,3,2,4,2};
-    public static int [] first={1,2,3,4,5}; //1번 수포자 번호찍는 방식
-    public static int [] second={2, 1, 2, 3, 2, 4, 2, 5}; //2번 수포자 번호찍는 방식
-    public static int [] third={3,3,1,1,2,2,4,4,5,5}; //3번 수포자 번호찍는 방식
     public static void main(String[] args) {
         for(int i : solution(answer))
             System.out.print(i);

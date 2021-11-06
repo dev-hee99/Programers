@@ -19,6 +19,7 @@ public class Ternary {
         int answer=0;
         StringBuilder sb = new StringBuilder();
         for(int i=n; 0<i; i/=3)
+
             sb.append(i%3);
         sb.reverse();
         String [] arr = sb.toString().split("");

@@ -47,7 +47,7 @@ public class stringSort {
         });
         return list.toArray(new String[list.size()]);
     }
-    
+
     //방법2
     public static String[] solution2(String[] strings, int n){
         ArrayList<String> list = new ArrayList<>();
